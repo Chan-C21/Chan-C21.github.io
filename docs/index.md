@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-</html>
-<html>
 <head>
   <title>UnBeatenPathWebsite</title></head>
   </html>
@@ -18,8 +15,6 @@
   <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/SurveyPage.html">Survey</a>
   <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/WeatherPage.html">Weather</a>
   <i class="fa fa-bell" style="font-size:20px;color:blue"></i>
-</html>
-</div>
 <p align=center>
 <script>function display_ct6() {
   var x = new Date()
@@ -37,9 +32,7 @@
   }
   display_c6()
   </script>
-  <span id='ct6' style="background-color: #3cff00"></span>
 </p>
-</div>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
