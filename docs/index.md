@@ -1,228 +1,230 @@
- <title>UnBeatenPathWebsite</title></head>
-  </html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-<p align=right>
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Home/index.html">HP (Home Page)</a>
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/AboutPage.html">About</a> 
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/ContactPage.html">Contact</a>
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/New%20Pages/DonatePage.html">Donate</a>
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/SurveyPage.html">Survey</a>
-  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/WeatherPage.html">Weather</a>
-  <i class="fa fa-bell" style="font-size:20px;color:blue"></i>
-</html>
-</div>
-<p align=center>
-<script>function display_ct6() {
-  var x = new Date()
-  var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
-  hours = x.getHours( ) % 12;
-  hours = hours ? hours : 12;
-  var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
-  x1 = x1 + " - " +  hours + ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;
-  document.getElementById('ct6').innerHTML = x1;
-  display_c6();
-   }
-   function display_c6(){
-  var refresh=1000; // Refresh rate in milli seconds
-  mytime=setTimeout('display_ct6()',refresh)
-  }
-  display_c6()
-  </script>
-</p>
-</div>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Dashed border */
-hr.dashed {
-  border-top: 3px dashed #bbb;
-}
-
-/* Dotted border */
-hr.dotted {
-  border-top: 3px dotted #bbb;
-}
-
-/* Solid border */
-hr.solid {
-  border-top: 3px solid #bbb;
-}
-
-/* Rounded border */
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
-}
-</style>
-</head>
-<body>
-<hr class="solid">
-</body>
-</html>
-
-<br>
-</body>
-</html> 
-</body>
-</html> 
-<head>
-        <style>
-        h1 {text-align: center;}
-        p {text-align: center;}
-        div {text-align: center;}
-        </style>
-        </head>
-        <body>
-  <h1>Welcome To UnBeaten Path</h1>
-        <p>The Path To Nature</p>
-        <div>Explore UnBeaten Path World</div>
-        <p>Open From <time>10:00 AM</time> - <time>6:00 PM</time> Every Weekday.</p>
-        &nbsp;&nbsp;
-
-    </body>       
-                </div>
-                <html>
-                  <head>
-                    <title>Slideshow Images</title>
-                    <style>
-                      .slider {
-                        width: 500px;
-                        height: 300px;
-                        background-color: yellow;
-                        margin-left: auto;
-                        margin-right: auto;
-                        margin-top: 0px;
-                        text-align: center;
-                        overflow: hidden;
-                      }
-                      .image-container {
-                        width: 1500px;
-                        background-color: pink;
-                        height: 300px;
-                        clear: both;
-                        position: relative;
-                        -webkit-transition: left 2s;
-                        -moz-transition: left 2s;
-                        -o-transition: left 2s;
-                        transition: left 2s;
-                      }
-                      .slide {
-                        float: left;
-                        margin: 0px;
-                        padding: 0px;
-                        position: relative;
-                      }
-                      #slide-1:target ~ .image-container {
-                        left: 0px;
-                      }
-                      #slide-2:target ~ .image-container {
-                        left: -500px;
-                      }
-                      #slide-3:target ~ .image-container {
-                        left: -1000px;
-                      }
-                      .buttons {
-                        position: relative;
-                        top: -20px;
-                      }
-                      .buttons a {
-                        display: inline-block;
-                        height: 15px;
-                        width: 15px;
-                        border-radius: 50px;
-                        background-color: lightgreen;
-                      }
-                    </style>
-                  </head>
-                  <body>
-                    <div class="slider">
-                      <span id="slide-1"></span>
-                      <span id="slide-2"></span>
-                      <span id="slide-3"></span>
-                      <div class="image-container">
-                        <img src="file://C:Users/Cottrell/Pictures/Extra/River%20View%20(ADK%20NY).jpg" class="slide" width="500" height="300" />
-                        <img src="file:///C:/Users/Cottrell/Pictures/Extra/Chan's%20Grasshopper%20R-C%20Car.jpg" class="slide" width="500" height="300" />
-                        <img src="file:///C:/Users/Cottrell/Pictures/Extra/Maine%20Woods.jpg" class="slide" width="500" height="300" />
-                      </div>
-                      <div class="buttons">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                      </div>
-                    </div>
-                  </body>
-                </html>
-                &emsp;&emsp;
-                <form>
-                  <form action="//www.html.am/html-codes/textboxes/submitted.cfm">
-                    <textarea name="myTextBox" cols="188" rows="16" style="background-color:#8be920;color:#000000;">
-  What is it going to do for people?
-       Unbeaten Path is going to take people outside of the house or even get away from technology for the day. Unbeaten Path is going to have people become outdoor enthusiasts. Unbeaten Path is to have people enjoy Nature and Her animals. Unbeaten makes sure that people are enjoying their time with us and becoming outdoor enthusiasts. Unbeaten is all about outdoor orientations.
-                
-  How is it going to attract people?
-      It is going to attract people because it’s a hands-free technology business. It attracts young and old people because everyone wants to be an outdoor enthusiast. We are going to put out posters so people can see what’s new around Maine. We welcome vacationers with open arms, so that is one other way that we are going to attract people’s attention. We also welcome Mainers with open arms too.
-                
-  What do people benefit from the business?
-       People benefit from Unbeaten Path because it shows people what outdoor orientation is all about. People benefit from us, Unbeaten Path, by having experience with Nature and Her animals. People benefit from us, Unbeaten Path, by experiencing how important Nature is to the world. We want to be benefitted from us because we want people to see that animals and Nature are what’s keeping this world going right now. People will be benefited from the best causes.
-                    </textarea>
-                    <br />
-                    </form>
-<p align=center>
-                    <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/ContactPage.html">Read More</a>  
-</p>
-&emsp;
-              </div>
-        </html>
-        <body style="background-color:rgb(0, 255, 21)"></body>               
-        </a></div><div class="col-md-6"><hr class="light"><h5>Email</h5><hr class="light"><a href="mailto:cottrellchandler123@gmail.com"><p>cottrellchandler123@gmail.com</p></a></div><div class="col-md-3"><hr class="light"><h5>Mobile</h5><hr class="light"><p>(862) 324 3079</p></div><div></div></div></div>        
-        <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /* Dashed border */
-    hr.dashed {
-      border-top: 3px dashed #bbb;
-    }
-    
-    /* Dotted border */
-    hr.dotted {
-      border-top: 3px dotted #bbb;
-    }
-    
-    /* Solid border */
-    hr.solid {
-      border-top: 3px solid #bbb;
-    }
-    
-    /* Rounded border */
-    hr.rounded {
-      border-top: 8px solid #bbb;
-      border-radius: 5px;
-    }
-    </style>
-</head>
-<body>
-<hr class="solid">
-</body>
-</html>
-
-        
-        <body>
-    <p style="color:rgb(255, 255, 255);"></p>
-</body>
-
-<html>
+document.write(' <title>UnBeatenPathWebsite</title></head>');
+document.write('  </html>');
+document.write('<head>');
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1">');
+document.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">');
+document.write('</head>');
+document.write('');
+document.write('<body>');
+document.write('<p align=right>');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Home/index.html">HP (Home Page)</a>');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/AboutPage.html">About</a> ');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/ContactPage.html">Contact</a>');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/New%20Pages/DonatePage.html">Donate</a>');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/SurveyPage.html">Survey</a>');
+document.write('  <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/WeatherPage.html">Weather</a>');
+document.write('  <i class="fa fa-bell" style="font-size:20px;color:blue"></i>');
+document.write('</html>');
+document.write('</div>');
+document.write('<p align=center>');
+document.write('<script>function display_ct6() {');
+document.write('  var x = new Date()');
+document.write('  var ampm = x.getHours( ) >= 12 ? \' PM\' : \' AM\';');
+document.write('  hours = x.getHours( ) % 12;');
+document.write('  hours = hours ? hours : 12;');
+document.write('  var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); ');
+document.write('  x1 = x1 + " - " +  hours + ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;');
+document.write('  document.getElementById(\'ct6\').innerHTML = x1;');
+document.write('  display_c6();');
+document.write('   }');
+document.write('   function display_c6(){');
+document.write('  var refresh=1000; // Refresh rate in milli seconds');
+document.write('  mytime=setTimeout(\'display_ct6()\',refresh)');
+document.write('  }');
+document.write('  display_c6()');
+document.write('  </script>');
+document.write('</p>');
+document.write('</div>');
+document.write('<html>');
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1">');
+document.write('<head>');
+document.write('<style>');
+document.write('body {');
+document.write('  font-family: Arial, Helvetica, sans-serif;');
+document.write('}');
+document.write('');
+document.write('/* Dashed border */');
+document.write('hr.dashed {');
+document.write('  border-top: 3px dashed #bbb;');
+document.write('}');
+document.write('');
+document.write('/* Dotted border */');
+document.write('hr.dotted {');
+document.write('  border-top: 3px dotted #bbb;');
+document.write('}');
+document.write('');
+document.write('/* Solid border */');
+document.write('hr.solid {');
+document.write('  border-top: 3px solid #bbb;');
+document.write('}');
+document.write('');
+document.write('/* Rounded border */');
+document.write('hr.rounded {');
+document.write('  border-top: 8px solid #bbb;');
+document.write('  border-radius: 5px;');
+document.write('}');
+document.write('</style>');
+document.write('</head>');
+document.write('<body>');
+document.write('<hr class="solid">');
+document.write('</body>');
+document.write('</html>');
+document.write('');
+document.write('<br>');
+document.write('</body>');
+document.write('</html> ');
+document.write('</body>');
+document.write('</html> ');
+document.write('<head>');
+document.write('        <style>');
+document.write('        h1 {text-align: center;}');
+document.write('        p {text-align: center;}');
+document.write('        div {text-align: center;}');
+document.write('        </style>');
+document.write('        </head>');
+document.write('        <body>');
+document.write('  <h1>Welcome To UnBeaten Path</h1>');
+document.write('        <p>The Path To Nature</p>');
+document.write('        <div>Explore UnBeaten Path World</div>');
+document.write('        <p>Open From <time>10:00 AM</time> - <time>6:00 PM</time> Every Weekday.</p>');
+document.write('        &nbsp;&nbsp;');
+document.write('');
+document.write('    </body>       ');
+document.write('                </div>');
+document.write('                <html>');
+document.write('                  <head>');
+document.write('                    <title>Slideshow Images</title>');
+document.write('                    <style>');
+document.write('                      .slider {');
+document.write('                        width: 500px;');
+document.write('                        height: 300px;');
+document.write('                        background-color: yellow;');
+document.write('                        margin-left: auto;');
+document.write('                        margin-right: auto;');
+document.write('                        margin-top: 0px;');
+document.write('                        text-align: center;');
+document.write('                        overflow: hidden;');
+document.write('                      }');
+document.write('                      .image-container {');
+document.write('                        width: 1500px;');
+document.write('                        background-color: pink;');
+document.write('                        height: 300px;');
+document.write('                        clear: both;');
+document.write('                        position: relative;');
+document.write('                        -webkit-transition: left 2s;');
+document.write('                        -moz-transition: left 2s;');
+document.write('                        -o-transition: left 2s;');
+document.write('                        transition: left 2s;');
+document.write('                      }');
+document.write('                      .slide {');
+document.write('                        float: left;');
+document.write('                        margin: 0px;');
+document.write('                        padding: 0px;');
+document.write('                        position: relative;');
+document.write('                      }');
+document.write('                      #slide-1:target ~ .image-container {');
+document.write('                        left: 0px;');
+document.write('                      }');
+document.write('                      #slide-2:target ~ .image-container {');
+document.write('                        left: -500px;');
+document.write('                      }');
+document.write('                      #slide-3:target ~ .image-container {');
+document.write('                        left: -1000px;');
+document.write('                      }');
+document.write('                      .buttons {');
+document.write('                        position: relative;');
+document.write('                        top: -20px;');
+document.write('                      }');
+document.write('                      .buttons a {');
+document.write('                        display: inline-block;');
+document.write('                        height: 15px;');
+document.write('                        width: 15px;');
+document.write('                        border-radius: 50px;');
+document.write('                        background-color: lightgreen;');
+document.write('                      }');
+document.write('                    </style>');
+document.write('                  </head>');
+document.write('                  <body>');
+document.write('                    <div class="slider">');
+document.write('                      <span id="slide-1"></span>');
+document.write('                      <span id="slide-2"></span>');
+document.write('                      <span id="slide-3"></span>');
+document.write('                      <div class="image-container">');
+document.write('                        <img src="file://C:Users/Cottrell/Pictures/Extra/River%20View%20(ADK%20NY).jpg" class="slide" width="500" height="300" />');
+document.write('                        <img src="file:///C:/Users/Cottrell/Pictures/Extra/Chan\'s%20Grasshopper%20R-C%20Car.jpg" class="slide" width="500" height="300" />');
+document.write('                        <img src="file:///C:/Users/Cottrell/Pictures/Extra/Maine%20Woods.jpg" class="slide" width="500" height="300" />');
+document.write('                      </div>');
+document.write('                      <div class="buttons">');
+document.write('                        <a href="#slide-1"></a>');
+document.write('                        <a href="#slide-2"></a>');
+document.write('                        <a href="#slide-3"></a>');
+document.write('                      </div>');
+document.write('                    </div>');
+document.write('                  </body>');
+document.write('                </html>');
+document.write('                &emsp;&emsp;');
+document.write('                <form>');
+document.write('                  <form action="//www.html.am/html-codes/textboxes/submitted.cfm">');
+document.write('                    <textarea name="myTextBox" cols="188" rows="16" style="background-color:#8be920;color:#000000;">');
+document.write('  What is it going to do for people?');
+document.write('       Unbeaten Path is going to take people outside of the house or even get away from technology for the day. Unbeaten Path is going to have people become outdoor enthusiasts. Unbeaten Path is to have people enjoy Nature and Her animals. Unbeaten makes sure that people are enjoying their time with us and becoming outdoor enthusiasts. Unbeaten is all about outdoor orientations.');
+document.write('                ');
+document.write('  How is it going to attract people?');
+document.write('      It is going to attract people because it’s a hands-free technology business. It attracts young and old people because everyone wants to be an outdoor enthusiast. We are going to put out posters so people can see what’s new around Maine. We welcome vacationers with open arms, so that is one other way that we are going to attract people’s attention. We also welcome Mainers with open arms too.');
+document.write('                ');
+document.write('  What do people benefit from the business?');
+document.write('       People benefit from Unbeaten Path because it shows people what outdoor orientation is all about. People benefit from us, Unbeaten Path, by having experience with Nature and Her animals. People benefit from us, Unbeaten Path, by experiencing how important Nature is to the world. We want to be benefitted from us because we want people to see that animals and Nature are what’s keeping this world going right now. People will be benefited from the best causes.');
+document.write('                    </textarea>');
+document.write('                    <br />');
+document.write('                    </form>');
+document.write('<p align=center>');
+document.write('                    <a href="file:///C:/Users/Cottrell/Documents/GitHub/Chan-C21.github.io/UnBeatenPathWebsite/Pages/ContactPage.html">Read More</a>  ');
+document.write('</p>');
+document.write('&emsp;');
+document.write('              </div>');
+document.write('        </html>');
+document.write('        <body style="background-color:rgb(0, 255, 21)"></body>               ');
+document.write('        </a></div><div class="col-md-6"><hr class="light"><h5>Email</h5><hr class="light"><a href="mailto:cottrellchandler123@gmail.com"><p>cottrellchandler123@gmail.com</p></a></div><div class="col-md-3"><hr class="light"><h5>Mobile</h5><hr class="light"><p>(862) 324 3079</p></div><div></div></div></div>        ');
+document.write('        <html>');
+document.write('<meta name="viewport" content="width=device-width, initial-scale=1">');
+document.write('<head>');
+document.write('  <style>');
+document.write('    body {');
+document.write('      font-family: Arial, Helvetica, sans-serif;');
+document.write('    }');
+document.write('    ');
+document.write('    /* Dashed border */');
+document.write('    hr.dashed {');
+document.write('      border-top: 3px dashed #bbb;');
+document.write('    }');
+document.write('    ');
+document.write('    /* Dotted border */');
+document.write('    hr.dotted {');
+document.write('      border-top: 3px dotted #bbb;');
+document.write('    }');
+document.write('    ');
+document.write('    /* Solid border */');
+document.write('    hr.solid {');
+document.write('      border-top: 3px solid #bbb;');
+document.write('    }');
+document.write('    ');
+document.write('    /* Rounded border */');
+document.write('    hr.rounded {');
+document.write('      border-top: 8px solid #bbb;');
+document.write('      border-radius: 5px;');
+document.write('    }');
+document.write('    </style>');
+document.write('</head>');
+document.write('<body>');
+document.write('<hr class="solid">');
+document.write('</body>');
+document.write('</html>');
+document.write('');
+document.write('        ');
+document.write('        <body>');
+document.write('    <p style="color:rgb(255, 255, 255);"></p>');
+document.write('</body>');
+document.write('');
+document.write('<html>');
+document.write('  ');
+document.write('');
