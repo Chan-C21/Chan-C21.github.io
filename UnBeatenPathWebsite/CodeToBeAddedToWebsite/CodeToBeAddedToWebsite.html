@@ -1,0 +1,317 @@
+<img src="file:///C:/Users/Cottrell/Pictures/Extra/Maine%20Woods.jpg" width="660" height="581" alt="Photo of Woods in Maine" />
+<a href="/" class="hvr-grow navbar-brand">Homepage</a>
+<a href="/" class="hvr-grow navbar-brand">Chandler Cottrell</a>
+<div class="notificationIcon activities"><span class="sc-ir">Notifications</span>
+    <span class="notificationIcon__badge">
+      <span class="newItemBadge"></span>
+    </span>
+    </div>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="file://C:Users/Cottrell/Pictures/Extra/River%20View%20(ADK%20NY).jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="file:///C:/Users/Cottrell/Pictures/Extra/Chan's%20Grasshopper%20R-C%20Car.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="file:///C:/Users/Cottrell/Pictures/Extra/Maine%20Woods.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> 
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+  dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}  
+color:white;font-size:20px;border:1px solid rgb(0, 0, 0) *Note that this goes with background picture*
+<form>
+  <form action="//www.html.am/html-codes/textboxes/submitted.cfm">
+    <textarea name="myTextBox" cols="188" rows="14" style="background-color:#8be920;color:#000000;">
+What is it going to do for people?
+Unbeaten Path is going to take people outside of the house or even get away from technology for the day. Unbeaten Path is going to have people become outdoor enthusiasts. Unbeaten Path is to have people enjoy Nature and Her animals. Unbeaten makes sure that people are enjoying their time with us and becoming outdoor enthusiasts. Unbeaten is all about outdoor orientations.
+
+How is it going to attract people?
+It is going to attract people because it’s a hands-free technology business. It attracts young and old people because everyone wants to be an outdoor enthusiast. We are going to put out posters so people can see what’s new around Maine. We welcome vacationers with open arms, so that is one other way that we are going to attract people’s attention. We also welcome Mainers with open arms too.
+
+What do people benefit from the business?
+People benefit from Unbeaten Path because it shows people what outdoor orientation is all about. People benefit from us, Unbeaten Path, by having experience with Nature and Her animals. People benefit from us, Unbeaten Path, by experiencing how important Nature is to the world. We want to be benefitted from us because we want people to see that animals and Nature are what’s keeping this world going right now. People will be benefited from the best causes.
+    </textarea>
+    <br />
+    </form>
+<a href="file:///C:/Users/Cottrell/Documents/My%20Code/UnBeatenPathWebsite/Pages/informationpage.html">Read More</a>  
+<form id="connectForm" class="connect-form"><div class="form-group"><label class="form-label">Name</label><input placeholder="FernHead" name="name" type="text" class="form-control"><div class="invalid-feedback"></div></div><div class="form-group"><label class="form-label">Email</label><input placeholder="fernhead@example.com" name="name" type="email" class="form-control"><div class="invalid-feedback"></div></div><div class="form-group"><label class="form-label">Message</label><textarea placeholder="your message here..." name="message" class="form-control"></textarea><div class="invalid-feedback"></div></div><div class="connect-form-button"><button value="Submit" type="submit" class="btn btn-primary">Send</button></div></form>
+               
+        <div class="container-fluid padding"><div class="row text-center"><div class="col-md-3"><hr class="light">        <img src="file:///C:/Users/Cottrell/Pictures/Camera%20Roll/WIN_20210725_13_11_20_Pro.jpg" size="100" data-view-component="true" class="avatar-user avatar avatar-medium" width="90" height="90"><h5>Developer</h5><hr class="light"><a href="file:///C:/Users/Cottrell/Documents/My%20Code/UnBeatenPathWebsite/Pages/contactpage.html"><p>Chandler Cottrell</p></a></div><div class="col-md-6"><hr class="light"><h5>Email</h5><hr class="light"><a href="mailto:cottrellchandler123@gmail.com"><p>cottrellchandler123@gmail.com</p></a></div><div class="col-md-3"><hr class="light"><h5>Mobile</h5><hr class="light"><p>(862) 324 3079</p></div><div></div></div></div>        
