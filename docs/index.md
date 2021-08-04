@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-</html>
-<html>
-<head>
-  <title>UnBeatenPathWebsite</title></head>
+ <title>UnBeatenPathWebsite</title></head>
   </html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
