@@ -33,7 +33,6 @@
   }
   display_c6()
   </script>
-  <span id='ct6' style="background-color: #3cff00"></span>
 </p>
 </div>
 <html>
